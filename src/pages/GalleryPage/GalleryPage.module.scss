@@ -1,0 +1,32 @@
+.contentGallery{
+    width: 90%;
+    margin: auto;
+}
+
+.contentGridAndSearch{
+    display: flex;
+    flex-direction: column;
+}
+
+// 750px
+@media screen and (min-width: 750px){
+    .contentGallery{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+// 991px
+@media screen and (min-width: 991px){
+    .contentGallery{
+        width: 850px;
+        margin: auto;
+    }
+    .contentGridAndSearch{
+        width: 850px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

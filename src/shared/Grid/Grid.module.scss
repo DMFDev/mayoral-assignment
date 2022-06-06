@@ -1,0 +1,16 @@
+.changeGrid{
+    margin-top: 60px;
+    font-size: 2rem;
+    color: lightgrey;
+    text-align: center;
+    & span{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .changeGrid{
+        margin-left: 10px;
+    }
+}

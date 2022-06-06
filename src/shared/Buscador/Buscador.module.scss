@@ -1,0 +1,22 @@
+.contentBuscador{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    & input{
+        width: 300px;
+        height: 30px;
+        border-radius: 6px;
+        border: 2px solid lightgrey;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .contentBuscador{
+        margin-top: 70px;
+        margin-right: 14px;
+        & input{
+            width: 400px;
+        }
+    }
+}
