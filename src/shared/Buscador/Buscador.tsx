@@ -1,5 +1,7 @@
 import {useState}  from "react";
 import styles from './Buscador.module.scss';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 
 const Buscador = ({datos, setDatosDinamicos}) => {
 
@@ -23,6 +25,7 @@ const Buscador = ({datos, setDatosDinamicos}) => {
     return (
         <div className={styles.contentBuscador}>
             <div>
+                <span><FontAwesomeIcon icon={faMagnifyingGlass}/></span>
                 <input type="text" placeholder="Buscar" onChange={e => onChange(e)}/>
             </div>
         </div>
